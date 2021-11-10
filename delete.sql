@@ -1,0 +1,1 @@
+delete from Department where id > 26000
