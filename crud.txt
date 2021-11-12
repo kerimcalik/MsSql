@@ -1,0 +1,12 @@
+CREATE	-> INSERT
+insert into tablo_ismi(sütun_1, sütun_2, sütun_n) values(değer1, değer2, "değer3")
+
+READ	-> SELECT
+select sütun_1, sütun_2 from tablo_ismi
+select * from tablo_ismi
+
+UPDATE	-> UPDATE
+update tablo_ismi set sütun_adı = içeriği, sütun_adı = 'içeriği' where filtre ifadeleri
+
+DELETE	-> DELETE
+delete from tablo_ismi where filtre ifadeleri
